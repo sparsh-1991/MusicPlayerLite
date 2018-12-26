@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/all_songs_frag"
+    android:background="#FFFFFF"
+    tools:context="com.sparsh.olaplaystudios.AllSongsFragment">
+
+        <android.support.v7.widget.RecyclerView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/all_songs_recycler"
+        android:background="#fff"    />
+
+</LinearLayout>
